@@ -26,3 +26,8 @@ And display it in the console
 
 ### *ChangeLog*
 ####  v0.0.1
+1. Made ReedMe file
+2. pushed branches to Github
+####  v0.1.0
+1. User can now input data
+2. User can now validate infomation
