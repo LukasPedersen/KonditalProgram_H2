@@ -31,3 +31,6 @@ And display it in the console
 ####  v0.1.0
 1. User can now input data
 2. User can now validate infomation
+####  v0.2.0
+1. User will now see physical condition score as an output
+2. User can choose to try again at the end

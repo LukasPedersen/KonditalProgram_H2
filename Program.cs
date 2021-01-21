@@ -8,13 +8,13 @@ namespace KonditalProgram_H2
 {
     class Program
     {
-        static void Main()
+        public static void Main()
         {
             //fields
-            int restingPulse;
-            int maxPulse;
-            int weight;
-
+            int restingPulse = 0;
+            int maxPulse = 0;
+            int weight = 0;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             WriteToConsole("Hello and wellcome today we are gonna see what your physical condition is.\nBy continuing you are giving us permission to handle your data\nPress any key to continue...", 28);
             Console.ReadKey();
             Console.Clear();
@@ -35,8 +35,12 @@ namespace KonditalProgram_H2
             switch (key)
             {
                 case "y":
+                    Console.Clear();
+                    Calculatetion.CalculateFitness(restingPulse, maxPulse);
+                    Console.ReadKey();
                     break;
                 case "n":
+                    WriteToConsole("", 28);
                     break;
                 default:
                     Console.Clear();
