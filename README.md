@@ -39,3 +39,6 @@ And display it in the console
 ####  v1.0.0
 1. User will now see O2 consumption rate as an output too
 2. Program has now met requirements
+####  v1.0.1
+1. Made small code optomization for 2 methods CalculateFitness() & CalculateO2Rate
+2. Made summarys for 2 methods CalculateFitness() & CalculateO2Rate

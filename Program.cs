@@ -30,7 +30,7 @@ namespace KonditalProgram_H2
             WriteToConsole("What is your max pulse when you workout in bpm(beats per minute)?\n", 28);
             //Calls ConvertFromConsole() and saves the return value in maxPulse
             maxPulse = ConvertFromConsole();
-            WriteToConsole($"Please validate the infomation below is it correct?\nResting pulse: {restingPulse}\nMax pulse: {maxPulse}\nWeight: {weight}\nY/N?", 28);
+            WriteToConsole($"Please validate the infomation below is it correct?\nResting pulse: {restingPulse} bpm\nMax pulse: {maxPulse} bpm\nWeight: {weight} kg\nY/N?", 28);
             string key = Console.ReadKey().KeyChar.ToString();
             switch (key)
             {
