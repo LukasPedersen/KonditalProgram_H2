@@ -4,7 +4,9 @@
 
 User inputs resting pulse, max puls, and weight
 
-When all data is filled is the program will calculate the users physical condition
+When all data is filled is the program will calculate the users
+1. physical condition
+2. O2 consumption rate
 
 And display it in the console 
 
@@ -34,3 +36,6 @@ And display it in the console
 ####  v0.2.0
 1. User will now see physical condition score as an output
 2. User can choose to try again at the end
+####  v1.0.0
+1. User will now see O2 consumption rate as an output too
+2. Program has now met requirements

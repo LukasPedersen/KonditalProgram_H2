@@ -37,6 +37,7 @@ namespace KonditalProgram_H2
                 case "y":
                     Console.Clear();
                     Calculatetion.CalculateFitness(restingPulse, maxPulse);
+                    Calculatetion.CalculateO2Rate(restingPulse, maxPulse, weight);
                     Console.ReadKey();
                     break;
                 case "n":
